@@ -1,0 +1,165 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* adding style to body */
+body{
+    background-color: rgb(54, 11, 94);
+
+}
+/* adding style to container */
+.container{
+    position:absolute;
+    width:80vmin;
+    justify-content: center;
+    align-items: center;
+    padding:30px 40px;
+    border:none;
+    margin:auto;
+    background-color: rgb(22, 4, 36);
+    /* background-color: rgb(21, 2, 36); */
+    color:white;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    align-items: center;
+    box-shadow: 20px 20px 25px rgba(0,0,0,0.2);
+}
+/* setting height width of wrapper class */
+.wrapper{
+    height:100%;
+    width:100%;
+}
+/* search section */
+.search-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input{
+    width:80%;
+    border:none;
+    outline:none;
+    border-bottom: 3px solid rgb(152, 108, 192);
+    font-size:25px ;
+    color:white;
+    background-color: transparent;
+}
+
+input:focus{
+    border-bottom: 3px solid rgb(34, 34, 122);
+}
+
+
+.search-box #btn-search{
+    color:rgb(150, 79, 209);
+    padding:10px;
+    font-size: 30px;
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-top:30px;
+}
+/* image section */
+img{
+    display:block;
+    width:40%;
+    margin:auto;
+    margin:20px auto 1px auto;
+}
+
+/* details of recipie section */
+.details{
+    position: relative;
+    text-align: center;
+    padding:10px;
+    margin:-10px 0 0 0;
+    background-color: rgb(136, 34, 231);
+}
+
+.details h2{
+    font-size: 30px;
+}
+
+.details h3{
+    font-size: 25px;
+}
+/* ingredients-list section */
+.list-ingredients{
+    margin-top: 20px;
+}
+
+.list-ingredients .items{
+    line-height: 30px;
+    font-size: 17px;
+}
+
+/* view-recipie-button section */
+
+.view{
+    position: relative;
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+    
+}
+
+.view .view-content{
+    padding:10px;
+    background-color: rgb(136, 34, 231);
+    color:white;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* recipie-instruction section */
+.watch-recipie pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding:2.5em 1.2em 1.2em 1.2em;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.watch-recipie{
+    position:absolute;
+    background-color: rgb(21, 2, 36);
+    min-height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 2;
+    display:none;
+}
+
+
+button:hover{
+    cursor:pointer;
+}
+
+/* close-button section */
+.hide{
+    position: relative;
+    font-size: 20px;
+    padding:7px;
+    width:50px;
+    left:85%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    outline:none;
+    background-color: rgb(152, 108, 192);
+}
+
+
+
+
+
+
+
